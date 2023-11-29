@@ -1,0 +1,45 @@
+@import 'bootstrap/scss/bootstrap';
+@import 'https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;700&display=swap';
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.border-hover {
+    border-bottom: 2px solid transparent;
+}
+
+.border-hover:hover {
+    border-bottom: 2px solid white;
+}
+
+.bg-img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.blackout-lightgreen {
+    background-color: hsla(192, 48%, 18%, 0.5);
+}
+
+.blackout {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.blackout-darkgreen {
+    background-color: hsla(194, 39%, 11%, 0.8);
+}
+
+.btn-yellow {
+    --bs-btn-bg: #fdeab5;
+    --bs-btn-hover-bg: white;
+}
+
+.btn-outline-yellow {
+    --bs-btn-border-color: #fdeab5;
+    --bs-btn-color: #fdeab5;
+    --bs-btn-hover-color: #212529;
+    --bs-btn-hover-border-color: #fdeab5;
+    --bs-btn-hover-bg: #fdeab5;
+}
