@@ -43,3 +43,19 @@ body {
     --bs-btn-hover-border-color: #fdeab5;
     --bs-btn-hover-bg: #fdeab5;
 }
+
+#techCarousel {
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+#techCarousel .f-carousel__slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-carousel {
+    --f-button-svg-stroke-width: 2.5;
+    --f-button-bg: #fdeab5 !important;
+}

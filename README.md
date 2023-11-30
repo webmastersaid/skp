@@ -1,2 +1,2 @@
-# skp
+# SKP
 SKP project
