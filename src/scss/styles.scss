@@ -59,3 +59,8 @@ body {
     --f-button-svg-stroke-width: 2.5;
     --f-button-bg: #fdeab5 !important;
 }
+
+.scale-1:hover {
+    background-size: 150%;
+    transition: all .3s ease;
+}
