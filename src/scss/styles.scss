@@ -60,7 +60,11 @@ body {
     --f-button-bg: #fdeab5 !important;
 }
 
+.scale-1 {
+    background-size: 100%;
+}
+
 .scale-1:hover {
-    background-size: 150%;
+    background-size: 125%;
     transition: all .3s ease;
 }
