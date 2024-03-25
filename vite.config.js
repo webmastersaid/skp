@@ -8,6 +8,7 @@ export default defineConfig({
             input: {
                 main: resolve(__dirname, '/index.html'),
                 about: resolve(__dirname, '/about/index.html'),
+                news: resolve(__dirname, '/news/index.html'),
             },
         },
         outDir: '../dist'
