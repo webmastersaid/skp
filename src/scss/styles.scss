@@ -5,6 +5,53 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.v-line-8-yellow {
+    background-color: #fdeab5;
+    width: 8px;
+    height: 240px;
+}
+
+.h-line-3-dark {
+    background-color: #222;
+    width: 75%;
+    max-width: 320px;
+    height: 3px;
+}
+
+.bg-dark-green {
+    background-color: #133e49;
+}
+
+.text-dark-green {
+    color: #183b44;
+}
+
+.dg-circle-170 {
+    background-color: #133e49;
+    height: 170px;
+    width: 170px;
+}
+
+.text-light-yellow {
+    color: #fdeab5;
+}
+
+.v-line-3-yellow {
+    width: 3px;
+    height: 75px;
+    background-color: hsla(44, 93%, 60%, 1);
+}
+
+.dg-border-top-2 {
+    color: #183b44;
+    --bs-border-color: #133e49;
+    --bs-border-width: 2px;
+}
+
+.bg-gray {
+    background-color: #919191;
+}
+
 .border-hover {
     border-bottom: 2px solid transparent;
 }
