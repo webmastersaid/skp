@@ -22,13 +22,13 @@ const CountUpOptions = {
     enableScrollSpy: true,
     scrollSpyOnce: true,
 }
-const years = new CountUp('years', 300, CountUpOptions)
+const years = new CountUp('years', document.getElementById('years').innerText, CountUpOptions)
 years.handleScroll()
-const kilograms = new CountUp('kilograms', 100, CountUpOptions)
+const kilograms = new CountUp('kilograms', document.getElementById('kilograms').innerText, CountUpOptions)
 kilograms.handleScroll()
-const objects = new CountUp('objects', 50, CountUpOptions)
+const objects = new CountUp('objects', document.getElementById('objects').innerText, CountUpOptions)
 objects.handleScroll()
-const percent = new CountUp('percent', 100, CountUpOptions)
+const percent = new CountUp('percent', document.getElementById('percent').innerText, CountUpOptions)
 percent.handleScroll()
 
 const fancyboxOptions = { 
