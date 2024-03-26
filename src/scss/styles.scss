@@ -72,3 +72,23 @@ body {
     background-size: 125%;
     transition: all .3s ease;
 }
+
+.banner-btn {
+    padding: 17px 65px;
+}
+
+.banner-discount {
+    font-size: 8rem;
+}
+
+@media (max-width: 1400px) {
+    .banner-discount {
+        font-size: 6rem;
+    }
+}
+
+@media (max-width: 1080px) {
+    .banner-discount {
+        font-size: 5rem;
+    }
+}
